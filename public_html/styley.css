@@ -11,7 +11,7 @@
     width:30em;
 }
 .grid-pad {
-    
+
 }
 .grid:after {
     content: "";
@@ -31,6 +31,7 @@
     border-right: 1px black solid;
     border-radius: 3px;
     text-align: center;
+    cursor: pointer;
 }
 .col-git-1 {
     background:yellow;
