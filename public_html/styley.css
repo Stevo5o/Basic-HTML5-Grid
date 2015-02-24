@@ -2,19 +2,19 @@
     Created on : 20-Feb-2015, 13:37:11
     Author     : Stephen
 */
+/*grid*/
 [class*='col-'] {
     float: left;
 
 }
-.grid {    
+.grid3 {    
     margin:0px auto;
     width:30em;
 }
 .grid-pad {
 
 }
-.grid:after {
-    content: "";
+.grid:after {    
     display: table;
     clear: both;
 }
@@ -29,8 +29,7 @@
     height:8em;
     border-bottom: 1px black solid;
     border-right: 1px black solid;
-    border-radius: 3px;
-    text-align: center;
+    border-radius: 3px;    
     cursor: pointer;
 }
 .col-git-1 {
